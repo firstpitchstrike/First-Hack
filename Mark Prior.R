@@ -15,4 +15,4 @@ ggplot(mark_prior, aes(x = yearID, y= W)) +
 ggplot(mark_prior, aes(x = yearID, y = W)) +
   labs(x = "Year", y = "Wins") +
   geom_bar(stat = "identity")  ### had to add stat = identity
-rlang::last_trace()
+
